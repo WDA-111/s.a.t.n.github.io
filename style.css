@@ -1,0 +1,336 @@
+/* Import section  */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Comfortaa:wght@300&family=Fira+Sans:wght@500&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Comfortaa:wght@300&family=Fira+Sans:wght@500&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+/* Hole page customise section  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    box-sizing: border-box;
+    z-index: 100;
+    /* font-family: ; */
+}
+body{
+    background: url('img/bag1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navigation section  */
+#nav{
+    padding: 10px;
+    background-color: rgba(61, 23, 68, 0.322);
+    height: 60px;
+    width: auto;
+    display: flex;
+    border: 2px solid rgb(188, 132, 241);
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+@media (max-width:700px) {
+    #logo{
+        margin-top: -44px;
+    }
+
+     #nav{
+        align-items: center;
+        padding:0;
+        height: 110px;
+        justify-content: center;
+     }
+    #navitems{
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:575px){
+    #nav{
+        height: 150px;
+     }
+     #navitems{
+        margin-top: 50px;
+    }
+    #logo{
+        margin-top: -88px;
+    }
+}
+
+#logo img{
+    position: relative;
+    margin-top: 4px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(188, 132, 241);
+}
+
+#navitems{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+    align-items: center;
+} 
+#navitems ul{
+    margin: 10px;
+
+}
+#navitems ul a{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lobster';
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+#navitems ul a:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(237, 114, 248);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* Indexsite section  */
+
+#h1{
+    border: 2px solid rgb(188, 132, 241);
+    background-color: rgba(66, 58, 58, 0.445);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#h1 h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-family: 'Pattaya';
+}
+#h1 h3{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+#h1 p{
+    text-align: center;
+    color: rgb(133, 241, 236);
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+#h1 video{
+    height: 100px;
+    width: auto;
+    opacity: 1;
+    border-radius: 5px;
+    border: 2px solid rgb(127, 218, 235);
+}
+#h1 button{
+    background-color: rgba(44, 6, 28, 0.027);
+    height: 42px;
+    width: 120px;
+    border: 2px solid rgb(188, 132, 241);
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+#h1 button:hover{
+    background-color: rgba(255, 0, 255, 0.397);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+/* Discord section  */
+#Discord{
+    margin-top: 80px ;
+}
+.d{ 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(174, 0, 255, 0.253);
+    border: 2px solid rgb(5, 150, 247);
+}
+#d h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#d h3{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+
+}
+.d p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+#dcard{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(86, 101, 235, 0.63);
+    padding: 10px;
+    border: 2px solid rgb(5, 150, 247);
+    border-radius: 5px;
+}
+#dcard img{
+    height: 70px;
+    width: 70px;
+    border:2px solid rgb(5, 150, 247);
+    border-radius: 50%;
+}
+#dcard a button{
+    background-color: rgba(62, 211, 238, 0.966);
+    padding: 5px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#dcard a button:hover{
+    background-color: rgb(59, 135, 233);
+    color: white;
+}
+
+/* Freand dc server section  */
+#ds h3{
+    font-size: 25px;
+}
+#ds h4{
+    color: rgb(245, 50, 50);
+}
+#ds p{
+    color: aliceblue;
+}
+#dscard {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(53, 203, 248);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#dscard img{
+    height: 80px;
+    width: 100px;
+    border: 2px solid rgb(53, 203, 248);
+    border-radius: 10%;
+
+}
+#dscard button{
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(53, 203, 248);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid rgba(126, 126, 255, 0);
+}
+#dscard button:hover{
+    background-color: rgb(124, 85, 231);
+    color: black;
+    font-weight: bold;
+}
+/* Youtuber freand section  */
+#ytf{
+    margin-top: 20px;
+}
+#yt{
+    background-color: rgba(108, 62, 233, 0.308);
+    border: 2px solid red ;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#yt h3{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+#yt h4{
+    color: rgb(230, 134, 24);
+    font-size: 17px;
+    text-align: center;
+}
+#yt p{
+    color: rgb(0, 0, 0);
+    font: 15px;
+    font-weight: bold;
+    
+}
+#yt img{
+    height: 90px;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#yt button{
+    background-color:rgb(153, 58, 51);
+    border: 2px solid rgba(160, 100, 100, 0);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#yt button:hover{
+    background-color: rgba(253, 106, 106, 0.74);
+}
+
+/* About me section  */
+#about{
+    margin-top: 20px;
+}
+#am{
+    border: 2px solid rgb(6, 231, 247);
+    margin:10px;
+    background-color: rgba(131, 24, 173, 0.466);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 5px;
+}
+#am p{
+    text-align: center;
+
+}
